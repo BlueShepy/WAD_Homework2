@@ -46,5 +46,13 @@
     "image": "res/images/cat3.jpg",
     "id": "6"
 
+  },
+  {
+    "author": "Lil Fella",
+    "date": "01.11.2026",
+    "text": "Looka this goofy goober outside ma door",
+    "image": "res/images/cat7.jpg",
+    "id": "7"
+
   }
 ]
