@@ -230,3 +230,25 @@ footer {
         width: 90%;        /* login and addPost forms */
     }
 }
+
+
+main {
+    padding: 0 12px;
+}
+
+#posts {
+    width: 100%;
+    min-width: 0;
+}
+
+.post {
+    width: 90%;
+    max-width: 350px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.post > img {
+    width: 100%;
+    height: auto;
+}
