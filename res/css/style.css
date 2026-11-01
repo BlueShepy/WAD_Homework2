@@ -87,6 +87,10 @@ a {
     border: 1px solid #646174;
     background-color: #006D5B;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
 
     /* 
     -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
@@ -123,7 +127,8 @@ footer {
 }
 
 .nav {
-    margin-top: 5px;
+    display: flex;
+    align-items: center;
      }
 
 .nav a {
@@ -148,31 +153,6 @@ footer {
     color: #092747;
              }
 
-    /* 
-      Applies when the browser's width is 800px wide or wider: 
-    */
-
-@media (min-width: 800px) {
-    .header,
-    .nav {
-        display: flex;
-    }
-    .header {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-    /* 
-     Applies when the browser's width is 1000px wide or wider: 
-     */
-
-@media (min-width: 1000px) {
-    .header {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
 
 
 #posts {
@@ -219,4 +199,34 @@ footer {
 
     .post p {
     margin: 12px 0 8px;
+}
+
+@media (max-width: 600px) {
+    .nav a {
+        padding: 8px 8px;
+        font-size: 0.85em;
+    }
+
+    #profile-photo,
+    .logo img {
+        width: 55px;
+        height: 55px;
+    }
+
+    #posts {
+        padding: 0 10px;   /* so posts don't touch the screen edges */
+    }
+
+    .post {
+        max-width: 100%;
+    }
+
+    footer {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    form {
+        width: 90%;        /* login and addPost forms */
+    }
 }
