@@ -55,4 +55,28 @@
     "id": "7"
 
   }
+  {
+    "author": "Muna Mats",
+    "date": "01.11.2026",
+    "text": "He so small",
+    "image": "res/images/cat8.jpg",
+    "id": "8"
+
+  }
+  {
+    "author": "REM",
+    "date": "01.11.2026",
+    "text": "Bottom text",
+    "image": "res/images/cat9.jpg",
+    "id": "9"
+
+  }
+  {
+    "author": "Guy",
+    "date": "01.11.2026",
+    "text": "omagawd",
+    "image": "res/images/cat10.jpg",
+    "id": "10"
+
+  }
 ]
