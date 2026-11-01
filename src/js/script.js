@@ -4,7 +4,7 @@ async function showPosts() {
   //let response = await fetch("res/json/posts.json");
   let response = await fetch("https://api.npoint.io/6c19fceef3ed34864adc");
 
-  let response = await fetch("res/json/posts.json");
+  //let response = await fetch("res/json/posts.json");
   let posts = await response.json();
   let container = document.getElementById("posts");
 
