@@ -311,3 +311,41 @@ main {
         height: 55px;
     }
 }
+
+
+
+/* Style text boxes */
+form textarea,
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+    font-family: inherit;
+    outline: none;
+    transition: 0.2s;
+}
+
+/* Green border when typing */
+form textarea:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    border-color: #006D5B;
+    box-shadow: 0 0 0 3px rgba(0, 109, 91, 0.15);
+}
+
+/* Textarea-specific styling */
+form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+/* Consistent form size */
+form {
+    width: 90%;
+    max-width: 420px;
+}
+
