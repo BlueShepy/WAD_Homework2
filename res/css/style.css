@@ -271,3 +271,43 @@ main {
     width: 100%;
     height: auto;
 }
+
+
+
+.profile-dropdown {
+    position: relative;
+}
+
+#profileButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.profile-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+    background-color: white;
+    padding: 15px;
+    min-width: 200px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+}
+
+.profile-menu.show {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    #profileButton img {
+        width: 55px;
+        height: 55px;
+    }
+}
