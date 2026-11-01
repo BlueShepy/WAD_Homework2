@@ -29,3 +29,10 @@ async function showPosts() {
 }
 
 showPosts();
+
+let profileButton = document.getElementById("profileButton");
+let profileMenu = document.getElementById("profileMenu");
+
+profileButton.addEventListener("click", function() {
+    profileMenu.classList.toggle("show");
+});
