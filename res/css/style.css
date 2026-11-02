@@ -231,6 +231,11 @@ input[type="file"]::file-selector-button:hover {
         width: 55px;
         height: 55px;
     }
+    
+    #profileButton img {
+        width: 55px;
+        height: 55px;
+    }
 
     #posts {
         padding: 0 10px;   /* so posts don't touch the screen edges */
@@ -305,12 +310,6 @@ main {
     display: block;
 }
 
-@media (max-width: 600px) {
-    #profileButton img {
-        width: 55px;
-        height: 55px;
-    }
-}
 
 
 
